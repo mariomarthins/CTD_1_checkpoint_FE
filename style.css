@@ -9,11 +9,10 @@
     text-decoration: none;
 }
 
-.fonte {
+/* .fonte {
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Architects Daughter', cursive;
-}
-
+} */
 
 body {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -81,7 +80,7 @@ p{
     width: 80%;
     font-family: 'Dancing Script', cursive; 
     background-color: rgba(83, 148, 87, 0.349);
-    color: rgb(69, 101, 207);
+    color: rgb(37, 61, 139);
     margin: auto;
     margin-top: 40px;
     padding: 40px;
@@ -124,9 +123,14 @@ footer {
 
 .footer-box {
     padding: 10px;
+    display: inline;
 }
 
  .redes_sociais img {
     height: 30px;
     width: 30px;
+ }
+
+ .footer-box H2 {
+     display: inline;
  }

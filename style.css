@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.fonte {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url(./img/1112-BH.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(18, 26, 11);
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* body img {
+    opacity: 0.5;
+} */
+
+/* caixa Header */
+header {
+    background-color: rgba(142, 156, 114, 0.452);
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 2%;
+    padding-top: 10px;
+    width: 80%;
+}
+/*  texto belorizonte */
+.cabecalho{
+    color: rgb(190, 147, 147);
+    border-radius: 50px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgb(179, 17, 17);
+    margin-bottom: 20px;
+}
+
+.resumo {
+    width: 80%;
+    background-color: rgba(95, 158, 160, 0.479);
+
+
+    color: rgb(13, 48, 10);
+    text-align: justify;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+}
+/*  Video */
+/* section.video{
+    text-align: center;
+    width: 1280px;
+} */
+
+
+/* curiosidades caixa externa transparente */
+.curiosidades {
+    width: 80%;
+    font-family: 'Dancing Script', cursive; 
+    background-color: rgba(83, 148, 87, 0.349);
+    color: rgb(69, 101, 207);
+    margin: auto;
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+}
+/*  */
+.curiosidade-box {
+    width: 90%;
+/*     text-align: left; */
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.curiosidade-box li {
+    padding: 15px;
+}
+/*  caixa que contem o texto das listas */
+.curiosidade-lista {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgba(248, 211, 131, 0.616);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/* Rodape */
+footer {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin-top: 25px;
+    background-color: rgb(141, 115, 115);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+/*     position: absolute; */
+/*     margin-bottom: 0px; */
+ }
+
+.footer-box {
+    padding: 10px;
+}
+
+ .redes_sociais img {
+    height: 30px;
+    width: 30px;
+ }
